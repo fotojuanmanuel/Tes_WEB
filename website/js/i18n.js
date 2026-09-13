@@ -64,7 +64,15 @@
             'index.filterEvents': 'Eventos',
             'index.filterMultimedia': 'Multimedia',
             'index.latestNews': 'Últimas Noticias',
-            'index.newsFilterAria': 'Filtrar noticias por categoría'
+            'index.newsFilterAria': 'Filtrar noticias por categoría',
+            'countries.eyebrow': 'Cobertura internacional',
+            'countries.title': 'Portales por país',
+            'countries.description': 'Seleccione un país para consultar sus noticias, comunicados, eventos y contenido multimedia.',
+            'countries.tabsAria': 'Seleccionar portal por país',
+            'countries.panelDescription': 'Acceda a la cobertura institucional y a los recursos de prensa disponibles.',
+            'countries.socialAria': 'Canales multimedia y redes sociales',
+            'countries.videos': 'Videos',
+            'countries.photos': 'Fotos'
         },
         en: {
             'common.backPortal': 'Return to portal',
@@ -127,7 +135,15 @@
             'index.filterEvents': 'Events',
             'index.filterMultimedia': 'Multimedia',
             'index.latestNews': 'Latest News',
-            'index.newsFilterAria': 'Filter news by category'
+            'index.newsFilterAria': 'Filter news by category',
+            'countries.eyebrow': 'International coverage',
+            'countries.title': 'Country portals',
+            'countries.description': 'Select a country to browse its news, press releases, events, and multimedia content.',
+            'countries.tabsAria': 'Select a country portal',
+            'countries.panelDescription': 'Access available institutional coverage and press resources.',
+            'countries.socialAria': 'Multimedia and social media channels',
+            'countries.videos': 'Videos',
+            'countries.photos': 'Photos'
         }
     };
 
