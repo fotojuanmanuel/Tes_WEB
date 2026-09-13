@@ -108,6 +108,89 @@
             </div>
         </div>
     </section>
+
+    <!-- Portales por país -->
+    <section id="paises" class="section country-hub" aria-labelledby="country-hub-title">
+        <div class="container">
+            <div class="country-hub-heading">
+                <p class="country-hub-eyebrow" data-i18n="countries.eyebrow">Cobertura internacional</p>
+                <h2 id="country-hub-title" data-i18n="countries.title">Portales por país</h2>
+                <p data-i18n="countries.description">Seleccione un país para consultar sus noticias, comunicados, eventos y contenido multimedia.</p>
+            </div>
+
+            <div class="country-tabs" role="tablist" aria-label="Seleccionar portal por país" data-i18n-aria-label="countries.tabsAria">
+                <button type="button" class="country-tab active" id="country-tab-cuba" data-country="cuba" role="tab" aria-selected="true" aria-controls="country-panel-cuba">Cuba</button>
+                <button type="button" class="country-tab" id="country-tab-nicaragua" data-country="nicaragua" role="tab" aria-selected="false" aria-controls="country-panel-nicaragua" tabindex="-1">Nicaragua</button>
+                <button type="button" class="country-tab" id="country-tab-venezuela" data-country="venezuela" role="tab" aria-selected="false" aria-controls="country-panel-venezuela" tabindex="-1">Venezuela</button>
+            </div>
+
+            <div class="country-panel active" id="country-panel-cuba" role="tabpanel" aria-labelledby="country-tab-cuba">
+                <div class="country-panel-intro">
+                    <span class="country-marker" aria-hidden="true">CU</span>
+                    <div>
+                        <h3>Cuba</h3>
+                        <p data-i18n="countries.panelDescription">Acceda a la cobertura institucional y a los recursos de prensa disponibles.</p>
+                    </div>
+                </div>
+                <div class="country-resource-grid">
+                    <a href="#noticias" class="country-resource"><i class="fa-regular fa-newspaper" aria-hidden="true"></i><span data-i18n="index.filterNews">Noticias</span></a>
+                    <a href="#comunicados" class="country-resource"><i class="fa-solid fa-bullhorn" aria-hidden="true"></i><span data-i18n="index.filterReleases">Comunicados</span></a>
+                    <a href="#eventos" class="country-resource"><i class="fa-regular fa-calendar-days" aria-hidden="true"></i><span data-i18n="index.filterEvents">Eventos</span></a>
+                    <a href="#multimedia" class="country-resource"><i class="fa-solid fa-photo-film" aria-hidden="true"></i><span data-i18n="index.filterMultimedia">Multimedia</span></a>
+                </div>
+                <div class="country-socials" aria-label="Canales multimedia y redes sociales" data-i18n-aria-label="countries.socialAria">
+                    <a href="https://www.youtube.com/user/OASVideos" target="_blank" rel="noopener noreferrer" class="country-social country-social--youtube" aria-label="Videos en YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i><span data-i18n="countries.videos">Videos</span></a>
+                    <a href="https://www.flickr.com/photos/oasoea/" target="_blank" rel="noopener noreferrer" class="country-social country-social--photos" aria-label="Fotos en Flickr"><i class="fa-brands fa-flickr" aria-hidden="true"></i><span data-i18n="countries.photos">Fotos</span></a>
+                    <a href="https://twitter.com/oea_oficial" target="_blank" rel="noopener noreferrer" class="country-social country-social--x" aria-label="Perfil oficial en X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i><span>X</span></a>
+                    <a href="https://www.instagram.com/oea_oficial/?hl=en" target="_blank" rel="noopener noreferrer" class="country-social country-social--instagram" aria-label="Perfil oficial en Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                </div>
+            </div>
+
+            <div class="country-panel" id="country-panel-nicaragua" role="tabpanel" aria-labelledby="country-tab-nicaragua" hidden>
+                <div class="country-panel-intro">
+                    <span class="country-marker" aria-hidden="true">NI</span>
+                    <div>
+                        <h3>Nicaragua</h3>
+                        <p data-i18n="countries.panelDescription">Acceda a la cobertura institucional y a los recursos de prensa disponibles.</p>
+                    </div>
+                </div>
+                <div class="country-resource-grid">
+                    <a href="#noticias" class="country-resource"><i class="fa-regular fa-newspaper" aria-hidden="true"></i><span data-i18n="index.filterNews">Noticias</span></a>
+                    <a href="#comunicados" class="country-resource"><i class="fa-solid fa-bullhorn" aria-hidden="true"></i><span data-i18n="index.filterReleases">Comunicados</span></a>
+                    <a href="#eventos" class="country-resource"><i class="fa-regular fa-calendar-days" aria-hidden="true"></i><span data-i18n="index.filterEvents">Eventos</span></a>
+                    <a href="#multimedia" class="country-resource"><i class="fa-solid fa-photo-film" aria-hidden="true"></i><span data-i18n="index.filterMultimedia">Multimedia</span></a>
+                </div>
+                <div class="country-socials" aria-label="Canales multimedia y redes sociales" data-i18n-aria-label="countries.socialAria">
+                    <a href="https://www.youtube.com/user/OASVideos" target="_blank" rel="noopener noreferrer" class="country-social country-social--youtube" aria-label="Videos en YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i><span data-i18n="countries.videos">Videos</span></a>
+                    <a href="https://www.flickr.com/photos/oasoea/" target="_blank" rel="noopener noreferrer" class="country-social country-social--photos" aria-label="Fotos en Flickr"><i class="fa-brands fa-flickr" aria-hidden="true"></i><span data-i18n="countries.photos">Fotos</span></a>
+                    <a href="https://twitter.com/oea_oficial" target="_blank" rel="noopener noreferrer" class="country-social country-social--x" aria-label="Perfil oficial en X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i><span>X</span></a>
+                    <a href="https://www.instagram.com/oea_oficial/?hl=en" target="_blank" rel="noopener noreferrer" class="country-social country-social--instagram" aria-label="Perfil oficial en Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                </div>
+            </div>
+
+            <div class="country-panel" id="country-panel-venezuela" role="tabpanel" aria-labelledby="country-tab-venezuela" hidden>
+                <div class="country-panel-intro">
+                    <span class="country-marker" aria-hidden="true">VE</span>
+                    <div>
+                        <h3>Venezuela</h3>
+                        <p data-i18n="countries.panelDescription">Acceda a la cobertura institucional y a los recursos de prensa disponibles.</p>
+                    </div>
+                </div>
+                <div class="country-resource-grid">
+                    <a href="#noticias" class="country-resource"><i class="fa-regular fa-newspaper" aria-hidden="true"></i><span data-i18n="index.filterNews">Noticias</span></a>
+                    <a href="#comunicados" class="country-resource"><i class="fa-solid fa-bullhorn" aria-hidden="true"></i><span data-i18n="index.filterReleases">Comunicados</span></a>
+                    <a href="#eventos" class="country-resource"><i class="fa-regular fa-calendar-days" aria-hidden="true"></i><span data-i18n="index.filterEvents">Eventos</span></a>
+                    <a href="#multimedia" class="country-resource"><i class="fa-solid fa-photo-film" aria-hidden="true"></i><span data-i18n="index.filterMultimedia">Multimedia</span></a>
+                </div>
+                <div class="country-socials" aria-label="Canales multimedia y redes sociales" data-i18n-aria-label="countries.socialAria">
+                    <a href="https://www.youtube.com/user/OASVideos" target="_blank" rel="noopener noreferrer" class="country-social country-social--youtube" aria-label="Videos en YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i><span data-i18n="countries.videos">Videos</span></a>
+                    <a href="https://www.flickr.com/photos/oasoea/" target="_blank" rel="noopener noreferrer" class="country-social country-social--photos" aria-label="Fotos en Flickr"><i class="fa-brands fa-flickr" aria-hidden="true"></i><span data-i18n="countries.photos">Fotos</span></a>
+                    <a href="https://twitter.com/oea_oficial" target="_blank" rel="noopener noreferrer" class="country-social country-social--x" aria-label="Perfil oficial en X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i><span>X</span></a>
+                    <a href="https://www.instagram.com/oea_oficial/?hl=en" target="_blank" rel="noopener noreferrer" class="country-social country-social--instagram" aria-label="Perfil oficial en Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <!-- Sección de Noticias -->
     <section id="noticias" class="section">
@@ -1002,6 +1085,7 @@
     <script src="js/i18n.js"></script>
     <script src="js/main.js"></script>
     <script src="js/multimedia-tabs.js"></script>
+    <script src="js/country-tabs.js"></script>
     <script src="js/registro-desplegable.js"></script>
 </body>
 </html>
