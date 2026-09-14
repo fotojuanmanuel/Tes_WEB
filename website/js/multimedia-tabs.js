@@ -1,6 +1,6 @@
 // Funcionalidad para las pestañas multimedia
 document.addEventListener('DOMContentLoaded', function () {
-    const tabs = Array.from(document.querySelectorAll('.multimedia-tab'));
+    const tabs = Array.from(document.querySelectorAll('.multimedia-tab[role="tab"]'));
     const contents = Array.from(document.querySelectorAll('.multimedia-content'));
     const tabsContainer = document.querySelector('.multimedia-tabs');
 
